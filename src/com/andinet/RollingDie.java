@@ -9,9 +9,10 @@ public class RollingDie {
 
         System.out.println("My Die game");
         //create a Randon object
-        Random random=new Random();
-        int num=random.nextInt(6)+1;
+        Random random = new Random();
+        int num = random.nextInt(6) + 1;
         System.out.println(num);
-	// write your code here
+        // write your code here
     }
+
 }

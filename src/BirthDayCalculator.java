@@ -8,6 +8,8 @@ public class BirthDayCalculator {
         LocalDate today=  LocalDate.now();
         LocalDate birthdate = LocalDate.of(1998,3,13);
         int year = Period.between(birthdate,today).getYears();
+        System.out.println(today);
+        System.out.println(birthdate);
         System.out.println(year);
 
     }
